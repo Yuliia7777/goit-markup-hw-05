@@ -541,8 +541,6 @@ img {
 
 .subscribe-header {
   color: var(--WHITE, #fff);
-
-  /* Body Medium */
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
@@ -556,14 +554,11 @@ img {
   gap: 24px;
 }
 
-/* .subscribe-form-label {} */
-
 .subscribe-form-input[id='email'] {
   width: 264px;
   height: 40px;
   border: 1px solid #fff;
   background-color: transparent;
-
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
@@ -583,7 +578,6 @@ img {
   align-items: center;
   min-width: 165px;
   height: 40px;
-
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -680,7 +674,7 @@ img {
 
 /*modal form*/
 
-modal-form-input-box {
+.modal-form-input-box {
   margin-bottom: 8px;
 }
 
@@ -722,18 +716,11 @@ modal-form-input-box {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
-  border-radius: 4px;
+
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: auto;
 }
 
-/* .modal-form-input-svg */
 .modal-form-svg {
   width: 18px;
   height: 24px;
@@ -750,7 +737,12 @@ modal-form-input-box {
   fill: #4d5ae5;
 }
 
-/* modal-form-textarea-box */
+.modal-form-button:hover,
+.modal-form-button:focus {
+  background-color: #404bbf;
+  border: none;
+}
+
 .modal-form-textarea-box {
   margin-bottom: 16px;
 }
