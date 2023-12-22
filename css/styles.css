@@ -533,6 +533,10 @@ img {
   max-width: 264px;
   color: rgba(244, 244, 253, 1);
 }
+
+.social-media {
+  margin-right: 120px;
+}
 /*subscribe*/
 
 .subscribe {
@@ -658,6 +662,13 @@ img {
 .modal-btn-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #404bbf;
+  border: none;
+}
+
 .modal-btn:hover .modal-btn-icon,
 .modal-btn:focus .modal-btn-icon {
   fill: #ffffff;
